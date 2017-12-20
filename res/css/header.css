@@ -1,0 +1,10 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#conhead{
+    width: 100%;
+    height: 350px;
+    background: rgb(181, 230, 253);
+}

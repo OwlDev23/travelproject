@@ -1,0 +1,113 @@
+<<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="res/css/content.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="concont">
+            <center>
+                <div id="inticont">
+                    <div id="conpesan">
+                        <p>Pesan wisata dan hotel</p>
+                        <div>
+                        <table>
+                            <tr>
+                                <td>Pilih kota </td>
+                                <td> : </td>
+                                <td>
+                                        <?php
+                                            include "init/listkota.php";
+                                        ?>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Penginapan </td>
+                                <td> : </td>
+                                <td>
+                                    <select name="wisata" id="">
+                                    <?php
+                                            echo(" <option value=''>Wisata</option>");
+                                            echo(" <option value=''>Hotel</option>");
+                                        ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Biaya Akomodasi</td>
+                                <td> : </td>
+                                <td>
+                                    <select name="wisata" id="">
+                                    <?php
+                                            echo(" <option value=''>Wisata</option>");
+                                            echo(" <option value=''>Hotel</option>");
+                                        ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jumlah Orang</td>
+                                <td> : </td>
+                                <td>
+                                    <select name="wisata" id="">
+                                    <?php
+                                            echo(" <option value=''>Wisata</option>");
+                                            echo(" <option value=''>Hotel</option>");
+                                        ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jenis Kendaraan</td>
+                                <td> : </td>
+                                <td>
+                                    <select name="wisata" id="">
+                                    <?php
+                                            echo(" <option value=''>Wisata</option>");
+                                            echo(" <option value=''>Hotel</option>");
+                                        ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td><input type="submit"  value="search"></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+                    
+                    <!-- jarak -->
+                    <h2 id="dl">Daftar List</h2>
+                    <div class="jarak">
+                    </div>
+                    
+                    <!-- hasil dari searcing -->
+                    <div id="conresult">
+                        <div class="foto">
+                            foto    
+                        </div>
+                        <div id="detail">
+                            <div>
+                                Judul
+                            </div>
+                            <div>
+                                deskripsi
+                            </div>
+                            <div>
+                                harga Rp
+                            </div>
+                            <div>
+                                <input type="submit" name="" value="Keranjangkan">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </center>
+        </div>
+    </body>
+</html>

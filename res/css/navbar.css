@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+#connav{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background: rgb(12, 194, 250);
+}
+
+#logo{
+    width: 140px;
+    height: 40px;
+    display: block;
+    float: left;
+}
+
+#conlogre{
+    width: 200px;
+    height: 40px;
+    background: greenyellow;
+    float: right;
+}
+
+#login{
+    float: left;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;    
+}
+
+#login a{
+    text-decoration: none;
+}
+
+#register{
+    float: right;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-style: bold;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;   
+}
+
+#register a{
+    text-decoration: none;
+}
