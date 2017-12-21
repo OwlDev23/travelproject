@@ -34,6 +34,7 @@
     <?php
         if(isset($_GET['login']))
         {
+            session_start();
             include "init/conection.php";
             $username = $_GET["uname"];
             $password = $_GET["psw"];
@@ -42,8 +43,9 @@
             $count = mysqli_num_rows($result);
 
             if($count == 1)
-            {
-
+            {     
+                $_SESSION["username"] = "root";
+                $_SESSION["password"] = "root";
                 header("Location: index.php");
             }
             else
