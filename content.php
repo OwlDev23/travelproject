@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <title></title>
@@ -33,7 +33,7 @@
                                 <td>Penginapan </td>
                                 <td> : </td>
                                 <td>
-                                    <select name="wisata" id="">
+                                    <select name="wisata">
                                         <option value='wisata'>Wisata</option>
                                         <option value='hotel'>Hotel</option>
                                     </select>

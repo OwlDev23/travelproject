@@ -4,7 +4,7 @@
         include "conection.php";
         $kota = $_GET["kota"];
         $jenis = $_GET["wisata"];
-        $nama = "";
+        $namajenis = "";
         $id = "";
         if($kota == "palembang")
         {
@@ -16,11 +16,11 @@
         }
         if($jenis == "hotel")
         {
-            $nama = "nama_hotel";
+            $namajenis = "nama_hotel";
         }
         else
         {
-            $nama = "nama_wisata";
+            $namajenis = "nama_wisata";
         }
 
 
@@ -33,7 +33,7 @@
         {
             while($row = mysqli_fetch_assoc($result))
             {
-                $nama = $row[$nama];
+                $nama = $row[$namajenis];
                 $deskrip = $row["deskrip"];
                 $harga = $row["harga"];
                 $foto = $row["foto"];
