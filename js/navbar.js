@@ -12,10 +12,7 @@ function loadcontent(a)
             window.location.href = './Gunung_Kidul.php';        
         break;
         case 4:
-            window.location.href = './Kulon_progo.php';        
-        break;
-        case 5:
-            window.location.href = './Sleman.php';        
+            window.location.href = './about.php';        
         break;
     }
 }

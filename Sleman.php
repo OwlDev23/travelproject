@@ -108,8 +108,8 @@
 			<div class="containerwisata">
 				<div id="tomap"></div>
 
-				<div class="fonttitleinf1 white">Tempat Wisata Palembang</div>
-				<div class="inf white">"Beberapa tempat wisata di palembang"</div>
+				<div class="fonttitleinf1 white">Tempat Wisata Sleman</div>
+				<div class="inf white">"Beberapa tempat wisata di Sleman"</div>
 
 				<!-- maps -->
 				<div class="conmap mgnright" id="googleMap"></div>
@@ -148,8 +148,8 @@
 					<div class="cnimg2" id="ampr">
 						<!-- overlay div -->
 						<div id="overlay3">
-								<div class="text">Jembatan Ampera<br>
-									<button class="btnsee" onclick="ampera()">see point</button></div>
+								<div class="text">Jembatan Alun-Alun<br>
+									<button class="btnsee" onclick="Alun-Alun()">see point</button></div>
 							</div>
 					</div>
 				</div>

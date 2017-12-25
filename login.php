@@ -16,13 +16,28 @@
 
         <div class="container">
             <label><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <?php
+                if(isset($_COOKIE["lastlogin"]))
+                {
+                    echo("
+                        <input type='text' placeholder='Enter Username' name='uname' required value=".$_COOKIE["lastlogin"].">
+                    ");
+                }
+                else
+                {
+                    echo("
+                        <input type='text' placeholder='Enter Username' name='uname' required>
+                    ");
+                }
+            ?>
+            
 
             <label><b>Password</b></label>
+            
             <input type="password" placeholder="Enter Password" name="psw" required>
                 
             <button type="submit" name="login">Login</button>
-            <input type="checkbox" checked="checked"> Remember me
+            <input type="checkbox" checked="checked" name="remember"> Remember me
         </div>
 
         <div class="container" style="background-color:#f1f1f1">
@@ -38,21 +53,27 @@
             include "init/conection.php";
             $username = $_GET["uname"];
             $password = $_GET["psw"];
+            
             $sql = "SELECT * from customer where username = '$username' and password = '$password'";
             $result = mysqli_query($con,$sql);
             $count = mysqli_num_rows($result);
 
             if($count == 1)
             {     
-                $_SESSION["username"] = "root";
-                $_SESSION["password"] = "root";
+                $_SESSION["username"] = $username;
+                $_SESSION["password"] = $password;
+                if(isset($_GET["remember"]))
+                {
+                    setcookie("lastlogin",$username, time()+(86400*30), "/");
+                }
                 header("Location: index.php");
+
             }
             else
             {
                 echo "
                 <script type='text/javascript'>
-                    alert('Username atau Password Salah!');
+                    alert('Username atau Password Salah atau Register Dahulu!');
                 </script>";
 
             }

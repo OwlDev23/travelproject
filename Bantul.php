@@ -15,21 +15,21 @@
         include "header.php";
         include "menubar.php";
     ?>
-	<center><div class="titlefont">PALEMBANG EXPLORE</div>
+	<center><div class="titlefont">Bantul EXPLORE</div>
 	<div class="containertop">
 		<div class="containercontent">
 			<center>
-				<div class="fonttitleinf"> AMPERA </div><br>
-				<img src="src/img/ampera.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Jembatan Ampera adalah sebuah jembatan di Kota Palembang, Provinsi Sumatera Selatan, Indonesia. </p>
+				<div class="fonttitleinf"> BANTUL </div><br>
+				<img src="src/img/Bantul/7.jpg" width="280px" height="260px" class="imgborder trnsformimg">
+				<p class="inf">Bantul adalah sebuah Kecamatan di Kabupaten Bantul, Provinsi Daerah Istimewa Yogyakarta, Indonesia. </p>
 
 				<button class="btninf" id="myBtn" onclick="showdialogmodal()">More Info</button>
 				<!-- modal dialog div -->
 				<div id="myModal" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Jembatan Ampera Palembang</div></<br><br>
-				    <div class="inf">Jembatan Ampera merupakan jembatan kebanggaan masyarakat Palembang, Sumatera Selatan dan menjadi Trade Mark bagi kota Palembang. Keberadaan jembatan tersebut sangat penting untuk menghubungkan daerah ulu dan ilir sehingga transportasi menjadi lancar dan otomatis juga memperlancar kehidupan ekonomi. Jembatan Ampera merupakan hadiah Bung Karno bagi masyarakat Palembang yang dananya diambil dari dana rampasan perang Jepang (juga untuk membangun Monas, Jakarta). Dahulu jembatan ini sempat diberi nama Jembatan Bung Karno, tetapi beliau tidak setuju (supaya tidak ada kultus individu), maka nama Ampera lebih cocok sesuai dengan fungsinya sebagai Amanat Penderitaan Rakyat, yang pernah menjadi slogan bangsa Indonesia pada tahun 1960-an.</div>
+				    <div class="titlemodal">BANTUL</div></<br><br>
+				    <div class="inf">Tempat wisata di Bantul – Berbicara mengenai dunia wisata di tanah Nusantara memang tidak akan ada habisnya. Pasalnya, tanah Indonesia ini memiliki berjuta objek wisata yang tentu sangat direkomendasikan untuk dikunjungi ketika melakukan trip, baik trip backpacker sendiri, bersama sahabat, keluarga, atau pergi bulan madu dengan pasangan. Salah satu kota yang dikenal akan kekayaan objek wisatanya adalah Yogyakarta. Di Yogyakarta, selain memang begitu kaya dan kental akan unsur budayanya juga terdapat banyak potensi wisata yang sangat mempesona, misalnya di salah satu kabupatennya yakni di kabupaten Bantul. Wisata Bantul merupakan destinasi yang paling banyak dikunjungi wisatawan yang singgah ke Yogyakarta. Penasaran ada apa saja, sih, di kabupaten Bantul ini? Yuk, simak list dari tempatwisataindonesia.id mengenai 14 tempat wisata di Bantul yang paling oke.</div>
 				  </div>
 				</div>
 				<!-- modal dialog div -->
@@ -38,16 +38,16 @@
 		<div class="containercontent">
 			<center>
 				<div class="fonttitleinf"> KULINER </div><br>
-				<img src="src/img/11.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Dipalembang ini terdapat berbagai macam aneka kuliner yang bisa membuat lidah bergoyang, salah satunya pempek kapal selam </p>
+				<img src="src/img/Bantul/4.jpg" width="280px" height="260px" class="imgborder trnsformimg">
+				<p class="inf">sate klatak, mie lethek, wedang uwuh, geplak, peyek tumpuk, sayur brongkos, sambel welut dan masih banyak lagi merupakan makanan khas Bantul.</p>
 
 				<button class="btninf" id="myBtn1" onclick="showdialogmodal()">More Info</button>
 				<!-- modal dialog div -->
 				<div id="myModal1" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Kuliner Palembang</div></<br><br>
-				    					    <div class="inf">Sangat bsnysk kuliner yang bisa anda nimkmati jika berkunjung kepalemmbang. Ini adalah list daftar makanan khas palembang <br>
+				    <div class="titlemodal">Kuliner Bantul</div></<br><br>
+				    					    <div class="inf">Sangat bsnysk kuliner yang bisa anda nimkmati jika berkunjung ke Bantul. Ini adalah list daftar makanan khas Bantul <br>
 				    					    <div id="list">
 				    					    <ol>
 				    					    	<li>Pempek</li>
@@ -67,8 +67,8 @@
 		<div class="containercontent">
 			<center>
 				<div class="fonttitleinf"> WISATA </div><br>
-				<img src="src/img/airterjun.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Di Palembang Terdapat Banyak Tempat Wisata, Kalau singah kesini jangan lupa untuk sempatkan ke tempat  wisatanya</p>
+				<img src="src/img/bantul/1.jpg" width="280px" height="260px" class="imgborder trnsformimg">
+				<p class="inf">Di Bantul Terdapat Banyak Tempat Wisata, Kalau singah kesini jangan lupa untuk sempatkan ke tempat  wisatanya</p>
 				<a href="#tomap">
 					<button class="btninf" id="myBtn2">More Info</button>
 				</a>
@@ -76,12 +76,12 @@
 				<div id="myModal2" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Destny Wisata Di Palembang</div></<br><br>
+				    <div class="titlemodal">Destny Wisata Di Bantul</div></<br><br>
 				    					    <div class="inf">
 
-												Palembang adalah ibukota dari provinsi Sumatera Selatan dan merupakan kota terbesar kedua di Pulau Sumatera. Dulunya, Palembang terkenal dengan keberadaan kerajaan Sriwijaya, kerajaan Buddha yang paling besar di Asia Tenggara.
+												Bantul adalah ibukota dari provinsi Sumatera Selatan dan merupakan kota terbesar kedua di Pulau Sumatera. Dulunya, Bantul terkenal dengan keberadaan kerajaan Sriwijaya, kerajaan Buddha yang paling besar di Asia Tenggara.
 
-												Selain terkenal dengan pempeknya, Palembang juga mempunyai potensi wisata yang tidak kalah dengan kota lainnya di Sumatera. Apa saja tempat wisata di Palembang yang wajib dikunjungi?
+												Selain terkenal dengan pempeknya, Bantul juga mempunyai potensi wisata yang tidak kalah dengan kota lainnya di Sumatera. Apa saja tempat wisata di Bantul yang wajib dikunjungi?
 				    					    <br>
 				    					    <div id="list">
 				    					    <ol>
@@ -108,8 +108,8 @@
 			<div class="containerwisata">
 				<div id="tomap"></div>
 
-				<div class="fonttitleinf1 white">Tempat Wisata Palembang</div>
-				<div class="inf white">"Beberapa tempat wisata di palembang"</div>
+				<div class="fonttitleinf1 white">Tempat Wisata Bantul</div>
+				<div class="inf white">"Beberapa tempat wisata di Bantul"</div>
 
 				<!-- maps -->
 				<div class="conmap mgnright" id="googleMap"></div>

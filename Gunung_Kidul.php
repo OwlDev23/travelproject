@@ -15,21 +15,21 @@
         include "header.php";
         include "menubar.php";
     ?>
-	<center><div class="titlefont">PALEMBANG EXPLORE</div>
+	<center><div class="titlefont">Gunung Kidul EXPLORE</div>
 	<div class="containertop">
 		<div class="containercontent">
 			<center>
-				<div class="fonttitleinf"> AMPERA </div><br>
-				<img src="src/img/ampera.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Jembatan Ampera adalah sebuah jembatan di Kota Palembang, Provinsi Sumatera Selatan, Indonesia. </p>
+				<div class="fonttitleinf"> Gunung Kidul </div><br>
+				<img src="src/img/Gunung Kidul/1.jpg" width="280px" height="260px" class="imgborder trnsformimg">
+				<p class="inf">sebuah Gunung Kidul adalah sebuah sebuah di Kota Gunung Kidul, Provinsi DI Yogyakarta, Indonesia. </p>
 
 				<button class="btninf" id="myBtn" onclick="showdialogmodal()">More Info</button>
 				<!-- modal dialog div -->
 				<div id="myModal" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Jembatan Ampera Palembang</div></<br><br>
-				    <div class="inf">Jembatan Ampera merupakan jembatan kebanggaan masyarakat Palembang, Sumatera Selatan dan menjadi Trade Mark bagi kota Palembang. Keberadaan jembatan tersebut sangat penting untuk menghubungkan daerah ulu dan ilir sehingga transportasi menjadi lancar dan otomatis juga memperlancar kehidupan ekonomi. Jembatan Ampera merupakan hadiah Bung Karno bagi masyarakat Palembang yang dananya diambil dari dana rampasan perang Jepang (juga untuk membangun Monas, Jakarta). Dahulu jembatan ini sempat diberi nama Jembatan Bung Karno, tetapi beliau tidak setuju (supaya tidak ada kultus individu), maka nama Ampera lebih cocok sesuai dengan fungsinya sebagai Amanat Penderitaan Rakyat, yang pernah menjadi slogan bangsa Indonesia pada tahun 1960-an.</div>
+				    <div class="titlemodal">sebuah Gunung Kidul Gunung Kidul</div></<br><br>
+				    <div class="inf">sebuah Gunung Kidul merupakan sebuah kebanggaan masyarakat Gunung Kidul, Sumatera Selatan dan menjadi Trade Mark bagi kota Gunung Kidul. Keberadaan sebuah tersebut sangat penting untuk menghubungkan daerah ulu dan ilir sehingga transportasi menjadi lancar dan otomatis juga memperlancar kehidupan ekonomi. sebuah Gunung Kidul merupakan hadiah Bung Karno bagi masyarakat Gunung Kidul yang dananya diambil dari dana rampasan perang Jepang (juga untuk membangun Monas, Jakarta). Dahulu sebuah ini sempat diberi nama sebuah Bung Karno, tetapi beliau tidak setuju (supaya tidak ada kultus individu), maka nama Gunung Kidul lebih cocok sesuai dengan fungsinya sebagai Amanat Penderitaan Rakyat, yang pernah menjadi slogan bangsa Indonesia pada tahun 1960-an.</div>
 				  </div>
 				</div>
 				<!-- modal dialog div -->
@@ -38,16 +38,16 @@
 		<div class="containercontent">
 			<center>
 				<div class="fonttitleinf"> KULINER </div><br>
-				<img src="src/img/11.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Dipalembang ini terdapat berbagai macam aneka kuliner yang bisa membuat lidah bergoyang, salah satunya pempek kapal selam </p>
+				<img src="src/img/Gunung Kidul/8.jpg" width="280px" height="260px" class="imgborder trnsformimg">
+				<p class="inf">DiGunung Kidul ini terdapat berbagai macam aneka kuliner yang bisa membuat lidah bergoyang, salah satunya pempek kapal selam </p>
 
 				<button class="btninf" id="myBtn1" onclick="showdialogmodal()">More Info</button>
 				<!-- modal dialog div -->
 				<div id="myModal1" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Kuliner Palembang</div></<br><br>
-				    					    <div class="inf">Sangat bsnysk kuliner yang bisa anda nimkmati jika berkunjung kepalemmbang. Ini adalah list daftar makanan khas palembang <br>
+				    <div class="titlemodal">Kuliner Gunung Kidul</div></<br><br>
+				    					    <div class="inf">Sangat bsnysk kuliner yang bisa anda nimkmati jika berkunjung kepalemmbang. Ini adalah list daftar makanan khas Gunung Kidul <br>
 				    					    <div id="list">
 				    					    <ol>
 				    					    	<li>Pempek</li>
@@ -68,7 +68,7 @@
 			<center>
 				<div class="fonttitleinf"> WISATA </div><br>
 				<img src="src/img/airterjun.jpg" width="280px" height="260px" class="imgborder trnsformimg">
-				<p class="inf">Di Palembang Terdapat Banyak Tempat Wisata, Kalau singah kesini jangan lupa untuk sempatkan ke tempat  wisatanya</p>
+				<p class="inf">Di Gunung Kidul Terdapat Banyak Tempat Wisata, Kalau singah kesini jangan lupa untuk sempatkan ke tempat  wisatanya</p>
 				<a href="#tomap">
 					<button class="btninf" id="myBtn2">More Info</button>
 				</a>
@@ -76,16 +76,16 @@
 				<div id="myModal2" class="modal">
 				  <div class="modal-content">
 				    <span class="close">x</span>
-				    <div class="titlemodal">Destny Wisata Di Palembang</div></<br><br>
+				    <div class="titlemodal">Destny Wisata Di Gunung Kidul</div></<br><br>
 				    					    <div class="inf">
 
-												Palembang adalah ibukota dari provinsi Sumatera Selatan dan merupakan kota terbesar kedua di Pulau Sumatera. Dulunya, Palembang terkenal dengan keberadaan kerajaan Sriwijaya, kerajaan Buddha yang paling besar di Asia Tenggara.
+												Gunung Kidul adalah ibukota dari provinsi Sumatera Selatan dan merupakan kota terbesar kedua di Pulau Sumatera. Dulunya, Gunung Kidul terkenal dengan keberadaan kerajaan Sriwijaya, kerajaan Buddha yang paling besar di Asia Tenggara.
 
-												Selain terkenal dengan pempeknya, Palembang juga mempunyai potensi wisata yang tidak kalah dengan kota lainnya di Sumatera. Apa saja tempat wisata di Palembang yang wajib dikunjungi?
+												Selain terkenal dengan pempeknya, Gunung Kidul juga mempunyai potensi wisata yang tidak kalah dengan kota lainnya di Sumatera. Apa saja tempat wisata di Gunung Kidul yang wajib dikunjungi?
 				    					    <br>
 				    					    <div id="list">
 				    					    <ol>
-				    					    	<li>Jembatan Ampera</li>
+				    					    	<li>sebuah Gunung Kidul</li>
 				    					    	<li>Sungai Musi</li>
 				    					    	<li>Pulau Kemaro</li>
 				    					    	<li>Taman Hutan Wisata Punti Kayu</li>
@@ -108,13 +108,13 @@
 			<div class="containerwisata">
 				<div id="tomap"></div>
 
-				<div class="fonttitleinf1 white">Tempat Wisata Palembang</div>
-				<div class="inf white">"Beberapa tempat wisata di palembang"</div>
+				<div class="fonttitleinf1 white">Tempat Wisata Gunung Kidul</div>
+				<div class="inf white">"Beberapa tempat wisata di Gunung Kidul"</div>
 
 				<!-- maps -->
 				<div class="conmap mgnright" id="googleMap"></div>
 				<!--apinnya-->
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEvrmcdbg3yP9eJYdG84Bn7RCsVZafXsA&callback=myMap"></script>
+				<script src="https://www.google.co.id/maps/place/Nglanggeran,+Patuk,+Gunung+Kidul+Regency,+Special+Region+of+Yogyakarta/@-7.8516741,110.5112909,14z/data=!3m1!4b1!4m5!3m4!1s0x2e7a4e18dcfe713b:0x760d05fd5684a99c!8m2!3d-7.8520902!4d110.5304842"></script>
 				<!--gallery-->
 				<div class="conmap mgnleft">
 					<div class="cnimg">
@@ -148,8 +148,8 @@
 					<div class="cnimg2" id="ampr">
 						<!-- overlay div -->
 						<div id="overlay3">
-								<div class="text">Jembatan Ampera<br>
-									<button class="btnsee" onclick="ampera()">see point</button></div>
+								<div class="text">sebuah Gunung Kidul<br>
+									<button class="btnsee" onclick="Gunung Kidul()">see point</button></div>
 							</div>
 					</div>
 				</div>

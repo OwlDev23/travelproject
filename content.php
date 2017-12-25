@@ -34,8 +34,29 @@
                                 <td> : </td>
                                 <td>
                                     <select name="wisata">
-                                        <option value='wisata'>Wisata</option>
-                                        <option value='hotel'>Hotel</option>
+                                        <?php
+                                            if($_SESSION["wisata"] == "wisata")
+                                            {
+                                                echo("
+                                                    <option value='wisata' selected>Wisata</option>
+                                                    <option value='hotel'>Hotel</option>
+                                                ");
+                                            }
+                                            else if($_SESSION["wisata"] == "hotel")
+                                            {
+                                                echo("
+                                                    <option value='wisata'>Wisata</option>
+                                                    <option value='hotel' selected>Hotel</option>
+                                                ");
+                                            }
+                                            else{
+                                                echo("
+                                                    <option value='wisata'>Wisata</option>
+                                                    <option value='hotel'>Hotel</option>
+                                                ");
+                                            }
+                                        ?>
+                                        
                                     </select>
                                 </td>
                             </tr>
@@ -53,7 +74,18 @@
                     </div>
                     
                     <!-- jarak -->
-                    <h2 id="dl">Daftar List</h2>
+                    <?php
+                        if(isset($_SESSION["wisata"]))
+                        {
+                            echo("<h2 id='dl'>Daftar List ".$_SESSION["wisata"]." di ".$_SESSION["kota"]."</h2>");
+                        }
+                        else
+                        {
+                            echo("<h2 id='dl'>Daftar List</h2>");
+                        }
+                        
+                    ?>
+                    
                     <div class="jarak">
                     </div>
 

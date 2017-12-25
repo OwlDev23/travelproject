@@ -1,19 +1,40 @@
 <?php
+
     if(!empty($_GET['submit']))
     {
+        $_SESSION["kota"] = $_GET["kota"];
+        $_SESSION["wisata"] = $_GET["wisata"];
+        loaddata();
+        
+        
+    }
+    else if(isset($_SESSION["kota"]) and isset($_SESSION["wisata"]))
+    {
+        loaddata();
+    }
+
+    function getidkota()
+    {
+        include "conection.php";        
+        $namakota = $_SESSION["kota"]; 
+        $sql = "SELECT * FROM kota where nama_kota = '$namakota'";
+        $result = mysqli_query($con,$sql);
+        if(mysqli_num_rows($result) == 1)
+        {
+            while($row = mysqli_fetch_assoc($result))
+            {
+                return $row["id_kota"];
+            }
+        }
+    }
+
+    function loaddata()
+    {
         include "conection.php";
-        $kota = $_GET["kota"];
-        $jenis = $_GET["wisata"];
+        $kota = $_SESSION["kota"];
+        $jenis = $_SESSION["wisata"];
         $namajenis = "";
-        $id = "";
-        if($kota == "palembang")
-        {
-            $id = "1";
-        }
-        else if($kota == "yogyakarta")
-        {
-            $id = "2";
-        }
+        $id = getidkota();
         if($jenis == "hotel")
         {
             $namajenis = "nama_hotel";
@@ -33,6 +54,7 @@
         {
             while($row = mysqli_fetch_assoc($result))
             {
+                $id = $row["id_".$jenis];
                 $nama = $row[$namajenis];
                 $deskrip = $row["deskrip"];
                 $harga = $row["harga"];
@@ -57,8 +79,24 @@
                                 <td>Rp $harga</td>
                             </tr>
                             <tr>
+                                <td> </td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td> </td>
+                            </tr>
+                            <tr>
+                                <td> </td>
+                                <td> </td>
+                            </tr>
+                            <tr>
                                 <td></td>
-                                <td><input type='submit' name='' value='Keranjangkan'></td>
+                                <td>
+                                    <a href='init/keranjangkan.php?id=$id'>
+                                        <p>KERANJANGKAN</p>
+                                    </a> 
+                                </td>
                             </tr>
                         </table>
                     </div>
@@ -73,5 +111,10 @@
         }
 
     }
+
+
+    
+
+  
     
 ?>

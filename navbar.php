@@ -18,7 +18,10 @@
             <img src="res/image/logo1.png" width="140" height="35" style="margin:5px;">
         </div>
         <div class="navbar">
+              <a href="index.php">Home</a>
               <a href="register.php">Register</a>
+              
+              
                 <?php
                     if(isset($_SESSION['username']))
                     {
@@ -28,9 +31,9 @@
                                 <i class='fa fa-caret-down'></i>
                                 </button>
                                 <div class='dropdown-content'>
-                                    <a href='#'>Profile</a>
-                                    <a href='#'>Keranjangku</a>
-                                    <a href='#'>Pesanan saya</a>
+                                    <a href='profile.php'>Profile</a>
+                                    <a href='keranjang.php'>Keranjangku</a>
+                                    <a href='pesan.php'>Pesanan saya</a>
                                     <a href='init/sessiondestroy.php'>Logout</a>
                                 </div>
                                 </div>     
@@ -44,6 +47,7 @@
                         ");
                     }
                 ?>
+                    
         </div>
     </div>
 </body>

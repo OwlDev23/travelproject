@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="res/css/logins.css">
 </head>
 <body>
+<?php
+    include "navbarsecond.php";
+?>
     <center>
     <div id="contain">
     <form action="register.php" method="get">

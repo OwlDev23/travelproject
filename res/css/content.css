@@ -66,10 +66,13 @@
 
 #conresult{
     width: 700px;
-    height: 150px;
-    background: rgb(240, 252, 188);
+    height: 400px;
+    background: rgb(168, 255, 251);
     display: block;
     margin: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: antiquewhite;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -79,7 +82,7 @@
 {
     float: left;
     display: block;
-    background: pink;
+    background: rgb(255, 255, 255);
     width: 200px;
     height: 150px;
 }
@@ -101,4 +104,24 @@
 
 #detail table tr{
     margin: 50px;
+    border: 1px solid white;    
+    
+}
+
+#detail table tr td{
+    word-wrap:break-word;
+}
+
+#detail table tr td a{
+    width: 150px;
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#detail table tr td a p{
+    align-content: center;
+    vertical-align: middle;
 }

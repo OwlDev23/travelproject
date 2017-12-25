@@ -16,7 +16,6 @@
         echo "
         <script type='text/javascript'>
             alert('Username atau Password Salah!');
-            
         </script>";
 
     }

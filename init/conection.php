@@ -1,5 +1,5 @@
 <?php
-	$db_name = "tourtravel";
+	$db_name = "tourtravels";
 	$user ="root";
 	$passwd = "";
 	$server = "localhost";

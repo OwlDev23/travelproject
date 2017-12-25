@@ -15,15 +15,12 @@
 <div id="cont">
     <div id='cssmenu'>
         <ul>
-            <li class='active' onclick="loadcontent(1)"><a href="#">Home</a></li>
+            <li onclick="loadcontent(1)"><a href="#">Home</a></li>
             <li onclick="loadcontent(2)"><a href='#'>Bantul</a>
             </li>
             <li onclick="loadcontent(3)"><a href='#'>Gunung Kidul</a>
+            <li onclick="loadcontent(4)"><a href='#'>About</a>
             </li>
-            <li onclick="loadcontent(4)"><a href='#'>Kulon Progo</a>
-            </li>
-            <li onclick="loadcontent(5)"><a href='#'>Sleman</a></li>
-            <li onclick="loadcontent(6)"><a href='#'>About</a></li>
         </ul>
     </div>
 </div>
